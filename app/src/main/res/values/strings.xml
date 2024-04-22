@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Activity Collection Projects</string>
+    <string name="Like">Like</string>
+    <string name="Share">Share</string>
+    <string name="Comment">Comment</string>
+    <string name="Temp">TextView</string>
+    <string name="LayoutExercise">Layout Exercise</string>
+    <string name="Instagram">Instagram</string>
+    <string name="Toast">Toast</string>
+    <string name="Change">Change</string>
+    <string name="Return">Return</string>
+    <string name="Close">Close</string>
+    <string name="Change_BG">Change BG</string>
+    <string name="Change_Button_BG">Change Button BG</string>
+    <string name="Disappear">Disappear</string>
+    <string name="ButtonExercise">Button Exercise</string>
+    <string name="CalculatorExercise">Calculator Exercise</string>
+    <string name="AC">AC</string>
+    <string name="num1">1</string>
+    <string name="num2">2</string>
+    <string name="num3">3</string>
+    <string name="num4">4</string>
+    <string name="num5">5</string>
+    <string name="num6">6</string>
+    <string name="num7">7</string>
+    <string name="num8">8</string>
+    <string name="num9">9</string>
+    <string name="num0">0</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="multiply">*</string>
+    <string name="divide">/</string>
+    <string name="equal">=</string>
+    <string name="percent">%</string>
+    <string name="dot">.</string>
+    <string name="backspace">Delete</string>
+    <string name="convert">+/-</string>
+</resources>
