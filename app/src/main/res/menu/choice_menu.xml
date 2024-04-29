@@ -10,12 +10,17 @@
                 android:id="@+id/mItemChangeBackground"
                 android:title="Background" />
             <item
-                android:id="@+id/mItemChangeBackground"
+                android:id="@+id/mItemChangeTextColor"
                 android:title="Text Color" />
-            <item android:title="Item" />
-            <item android:title="Item" />
-            <item android:title="Item" />
-            <item android:title="Item" />
+            <item
+                android:id="@+id/mItemChangeSize"
+                android:title="Increase Size" />
+            <item
+                android:id="@+id/mItemChangeShape"
+                android:title="Decrease Size" />
+            <item
+                android:id="@+id/mItemChangeVisibility"
+                android:title="Visibility" />
         </menu>
     </item>
     <item

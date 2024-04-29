@@ -41,6 +41,14 @@
             android:name=".PassingIntentsExercise2"
             android:exported="true">
         </activity>
+        <activity
+            android:name=".MenuExercise"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".MapsExercise"
+            android:exported="true">
+        </activity>
     </application>
 
 </manifest>

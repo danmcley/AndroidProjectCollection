@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -15,6 +16,9 @@ public class MainActivity extends AppCompatActivity {
     Button btn3;
     Button btn4;
     Button btn5;
+    Button btn6;
+    Button btn7;
+
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,12 +57,28 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent4);
             }
         });
-        btn4 = (Button) findViewById(R.id.btnToPassing);
-        btn4.setOnClickListener(new View.OnClickListener() {
+        btn5 = (Button) findViewById(R.id.btnToPassing);
+        btn5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent4 = new Intent(MainActivity.this, PassingIntentsExercise.class);
-                startActivity(intent4);
+                Intent intent5 = new Intent(MainActivity.this,PassingIntentsExercise.class);
+                startActivity(intent5);
+            }
+        });
+        btn6 = (Button) findViewById(R.id.btnMenu);
+        btn6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent6 = new Intent(MainActivity.this, MenuExercise.class);
+                startActivity(intent6);
+            }
+        });
+        btn7 = (Button) findViewById(R.id.btnMaps);
+        btn7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent7 = new Intent(MainActivity.this, MapsExercise.class);
+                startActivity(intent7);
             }
         });
     }
