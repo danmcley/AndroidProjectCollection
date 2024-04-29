@@ -5,16 +5,12 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ImageButton;
+import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MapsExercise extends AppCompatActivity {
-    ImageButton singapore;
-    ImageButton boracay;
-    ImageButton siargao;
-    ImageButton eiffel;
-    ImageButton kinkakuju;
+    Button singapore, boracay, siargao, eiffel, kinkakuju;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -22,11 +18,11 @@ public class MapsExercise extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps_exercise);
 
-        singapore = (ImageButton) findViewById(R.id.btnSingapore);
-        boracay = (ImageButton) findViewById(R.id.btnBoracay);
-        siargao = (ImageButton) findViewById(R.id.btnSiargao);
-        eiffel = (ImageButton) findViewById(R.id.btnEiffelTower);
-        kinkakuju = (ImageButton) findViewById(R.id.btnKinkakuji);
+        singapore = (Button) findViewById(R.id.btnSingapore);
+        boracay = (Button) findViewById(R.id.btnBoracay);
+        siargao = (Button) findViewById(R.id.btnSiargao);
+        eiffel = (Button) findViewById(R.id.btnEiffelTower);
+        kinkakuju = (Button) findViewById(R.id.btnKinkakuji);
 
         singapore.setOnClickListener(new View.OnClickListener() {
             @Override
